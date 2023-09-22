@@ -1,0 +1,42 @@
+body {
+    background-color: #E5F2FC;
+    font-family: 'Source Code Pro', monospace;
+    
+    background-image: url(..//ejercicio-3-diagramaci-n-angeandueza/código-programación.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+
+}
+
+h1 {
+   font-size: 60px;
+   margin-left: 30%;
+   margin-top: 6%;
+   font-style: bold;
+}
+
+h2{
+    padding: 5px 18px;
+    background-color: #F333BF;
+    margin-left: 2%;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+a{
+    padding: 3px 15px;
+    color: black;
+    background-color: #F0B848;
+    border-radius: 4px;
+}
+
+h3 {
+    background-color: #3FB7EC;
+    margin-left: 2%;
+    border-radius: 3px;
+    padding: 2px 12px;
+}
+
+p{
+    margin-left: 5%;
+}
