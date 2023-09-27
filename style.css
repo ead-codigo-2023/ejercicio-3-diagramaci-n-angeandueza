@@ -1,42 +1,168 @@
 body {
-    background-color: #E5F2FC;
-    font-family: 'Source Code Pro', monospace;
+    background-color: #085979;
+    font-family: 'Inter', sans-serif;
     
-    background-image: url(..//ejercicio-3-diagramaci-n-angeandueza/código-programación.jpg);
+    background-image: (url(..//ejercicio-3-diagramaci-n-angeandueza/FONDO\ OSCURO.png))
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 15000px;
 
 }
 
+
 h1 {
-   font-size: 60px;
-   margin-left: 30%;
-   margin-top: 6%;
-   font-style: bold;
+   font-size: 70px;
+   font-style: BOLD;
+   color: #085979;
+   background-color: #ECEBEA;
+   padding-left: 400px;
+   padding-top: 130px;
+   margin-top: 0px;
+   margin-left: 0px;
+
 }
 
 h2{
     padding: 5px 18px;
-    background-color: #F333BF;
     margin-left: 2%;
-    font-size: 30px;
+    font-size: 40px;
     border-radius: 3px;
+    background-color: #ECEBEA;
+    color: rgb(184, 38, 38)
+
+}
+.summary{
+    color: #ECEBEA;
+    margin-left: 2%;
+    text-align: left;
+
+    
 }
 
-a{
-    padding: 3px 15px;
-    color: black;
-    background-color: #F0B848;
-    border-radius: 4px;
+.summary a{
+    padding: 5px 8px;
+    color: #ECEBEA;
+    background-color:rgb(184, 38, 38);
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.zen-resources .a{
+    color: #085979
+
 }
 
 h3 {
-    background-color: #3FB7EC;
-    margin-left: 2%;
-    border-radius: 3px;
-    padding: 2px 12px;
+   
+    font-size: 30px;
+    color: #ECEBEA;
 }
 
-p{
-    margin-left: 5%;
+
+
+
+.preamble{
+    background-color: #64b9bec0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 15%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    color:#043143;
+}
+
+.sidebar .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.sidebar .wrapper a{
+    text-decoration: none;
+}
+.design-selection{
+    background-color: #ecebea; 
+    color:rgb(184, 38, 38);
+    border-radius: 8px;
+    text-decoration: none;
+    
+}
+
+.design-archives{
+    background-color:#ECEBEA;
+    color:rgb(184, 38, 38);
+    border-radius: 8px;
+    
+}
+
+.zen-resources{
+    background-color: #ECEBEA;
+    color:rgb(184, 38, 38);
+    border-radius: 8px;
+}
+
+.sidebar .wrapper a{
+    color:#085979;
+}
+
+.sidebar .wrapper h3{
+ text-align: center;
+ color: rgb(184, 38, 38);
+}
+
+.explanation{
+    background-color: #64b9bec0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 2%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    color:#043143;
+}
+
+
+.participation{
+    background-color: #64b9bec0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 15%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    color:#043143;
+}
+
+.participation a{
+    padding: 1px 5px;
+    color: #ECEBEA;
+    background-color:#085979;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.benefits{
+    background-color: #64b9bec0;
+    margin-left:15%;
+    margin-right: 2%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    color:#043143;
+}
+
+.requirements{
+    background-color: #64b9bec0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 15%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    color:#043143;
+}
+
+.requirements a{
+    padding: 1px 5px;
+    color: #ECEBEA;
+    background-color:#085979;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
